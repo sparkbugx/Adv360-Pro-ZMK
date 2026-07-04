@@ -41,6 +41,15 @@
         };
     };
 
+    macros {
+        vpn: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp U &kp D &kp O &kp SPACE &kp O &kp P &kp E &kp N &kp V &kp P &kp N>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
