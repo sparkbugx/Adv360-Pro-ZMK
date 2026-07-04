@@ -41,15 +41,6 @@
         };
     };
 
-    macros {
-        WindowsCopy: WindowsCopy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp>;
-            label = "WINDOWSCOPY";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
