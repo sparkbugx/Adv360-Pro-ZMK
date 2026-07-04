@@ -26,13 +26,18 @@
 
         windowpaste {
             bindings = <&none>;
-            key-positions = <35 49>;
+            key-positions = <35 50>;
             layers = <0>;
         };
 
-        windowpaste {
+        windowscopy {
             bindings = <&none>;
             key-positions = <35 49>;
+        };
+
+        windowselect {
+            bindings = <&none>;
+            key-positions = <35 29>;
         };
     };
 
